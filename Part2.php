@@ -19,8 +19,8 @@ if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }
 
-$X = $_GET['Firstname'];
-$Y = $_GET['Lastname'];
+$X = $_POST['Firstname'];
+$Y = $_POST['Lastname'];
 
 
 
